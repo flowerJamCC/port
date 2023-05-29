@@ -1,0 +1,30 @@
+.contacts-container{
+    padding: 70px;
+    margin-top: 50px;;
+}
+
+.contacts-button-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+}
+
+.contact-button{
+    background-color: #9f9f9f;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.contacts-reveal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 33px;
+    font-family: 'Lobster 2';
+}

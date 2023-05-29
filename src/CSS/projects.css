@@ -1,0 +1,90 @@
+.projects-container{
+    font-family: 'Cormorant Infant';
+    font-size: 22px;
+    line-height: 30px;
+    padding: 70px;
+    margin-left: -70px;
+    gap: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-one-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.project-one-right img{
+    width: 320px;
+    height: 200px;
+    object-fit:cover;
+    border: 1px solid gray;
+}
+
+.project-one-left{
+    width: 50%;
+}
+
+.project-one-right{
+    width: 50%;
+    display: flex;
+    padding-right: 100px;
+    gap: 10px;
+}
+
+.project-two-cont{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project-two-left img{
+    width: 320px;
+    height: 200px;
+    object-fit:cover;
+    border: 1px solid gray;
+}
+
+.project-two-left{
+    width: 50%;
+    display: flex;
+    gap:10px;
+}
+
+.project-two-right{
+    width: 50%;
+    margin-right: -60px;
+}
+
+.project-three-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.project-three-right img{
+    width: 320px;
+    height: 200px;
+    object-fit:cover;
+    border: 1px solid gray;
+}
+
+.project-three-left{
+    width: 50%;
+}
+
+.project-three-right{
+    width: 45%;
+    display: flex;
+    padding-right: 100px;
+    gap: 10px;
+}
+
+.projects-par{
+    font-size: 27px;
+    padding-left: 70px;
+    margin-bottom: 70px;
+}

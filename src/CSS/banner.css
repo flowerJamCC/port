@@ -1,0 +1,7 @@
+.main-banner{
+    margin-left: -400px;
+    margin-top: -30px;
+    object-fit:cover;
+    min-width: 2000px;
+    height: 250px;
+}

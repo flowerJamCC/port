@@ -1,0 +1,8 @@
+.profpic{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 70px;
+}

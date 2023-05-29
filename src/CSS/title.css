@@ -1,0 +1,10 @@
+.name-title{
+    margin-top: 70px;
+    font-size: 95px;
+    font-family: 'Lobster';
+    background: linear-gradient(90deg, #fadb61 0%, #ff006a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color:  #DBC2CF; */
+    /* color:antiquewhite */
+}

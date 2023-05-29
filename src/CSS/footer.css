@@ -1,0 +1,22 @@
+footer{
+    height: 300px;
+    padding: 70px;
+    margin-top: 70px;
+    font-size: 44px;
+    font-family: 'Lobster 2';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120%;
+    background: linear-gradient(90deg, #fadb61 0%, #ff006a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
