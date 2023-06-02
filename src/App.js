@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Button from './components/Button';
 import Footer from './components/Footer';
+import Proj from './components/Proj';
 
 const Resume_URL = 'http://localhost:3000/Resume.docx'
 
@@ -32,7 +33,8 @@ function App() {
       <Profilepic />
       <Paragraph />
       <Title name='Projects'/>
-      <Projects />
+      {/* <Projects /> */}
+      <Proj />
       <Title name='Contact Me'/>
       <Contact />
       <Button buttontext='Download Resume' onClick={() => {handleDownload(Resume_URL)}}/>

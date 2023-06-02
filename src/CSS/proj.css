@@ -1,0 +1,122 @@
+.porjects-container-main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.projects-par{
+    font-size: 26px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    gap: 10px;
+}
+
+.project-writing{
+    font-size: 22px;
+}
+
+.project-imgs{
+    display: flex;
+    gap: 10px;
+}
+
+.img-one{
+    width:300px;
+    height: 300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/dashboard.png');
+}
+
+.img-one:hover{
+    background-size: 800px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.img-two{
+    width:300px;
+    height:300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/dashcode.png');
+}
+
+.img-two:hover{
+    background-size: 800px;
+    background-position: 50%;
+    cursor:pointer;
+}
+
+.img-three{
+    width:300px;
+    height:300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/logincode.png');
+}
+
+.img-three:hover{
+    background-size: 800px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.img-four{
+    width:300px;
+    height:300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/loginpage.png');
+}
+
+.img-four:hover{
+    background-size: 800px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.img-five{
+    width:300px;
+    height:300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/shoeswebsite.png');
+}
+
+.img-five:hover{
+    background-size: 800px;
+    background-position: 99%;
+    cursor: pointer;
+}
+
+.img-six{
+    width:300px;
+    height:300px;
+    border: 1px solid gray;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-image: url('../media/shoescode.png');
+}
+
+.img-six:hover{
+    background-size: 800px;
+    background-position: 10%;
+    cursor: pointer;
+}
